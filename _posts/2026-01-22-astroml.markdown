@@ -1,0 +1,23 @@
+---
+title: "AstroML: Galaxy Classification at Scale"
+excerpt: "Automated galaxy classification for large-scale astronomical surveys using Deep Learning."
+header:
+  overlay_image: /assets/images/project-3.jpg
+  overlay_filter: 0.5
+sidebar:
+  - title: "Role"
+    text: "Research Intern"
+  - title: "Date"
+    text: "Oct 2025"
+---
+
+## Introduction
+With the advent of the Vera C. Rubin Observatory, we are entering an era of big data in astronomy. AstroML uses Convolutional Neural Networks (CNNs) to classify billions of galaxies automatically.
+
+## Dataset
+We used the Galaxy Zoo dataset for training, which includes millions of crowd-sourced classifications.
+
+## Performance
+Our model reaches human-level accuracy (98%) across 5 major morphological categories.
+
+<video src="/assets/videos/astroml-survey.mp4" controls width="100%"></video>
