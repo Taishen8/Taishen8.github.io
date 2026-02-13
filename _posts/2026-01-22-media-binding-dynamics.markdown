@@ -1,6 +1,7 @@
 ---
 title: "Peptide–Protein Binding Dynamics"
 excerpt: "[Placeholder] MP4 movie and results for binding dynamics."
+permalink: /notes/media-binding-dynamics/
 categories:
   - notes
 tags:

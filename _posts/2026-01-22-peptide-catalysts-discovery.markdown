@@ -1,6 +1,7 @@
 ---
 title: "Peptide Catalysts Discovery"
 excerpt: "[Placeholder] AI-driven screening of catalytic peptide motifs."
+permalink: /notes/peptide-catalysts-discovery/
 categories:
   - notes
 tags:

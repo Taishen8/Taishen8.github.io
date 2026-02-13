@@ -5,7 +5,7 @@ title: "Gan Haipeng"
 header:
   overlay_color: "#0b0b0f"
   overlay_filter: "0.45"
-  overlay_image: /assets/images/hero-placeholder.jpg
+  overlay_image: /assets/images/hero.png
   actions:
     - label: "Email"
       url: "mailto:your-email@example.com"
@@ -14,7 +14,7 @@ header:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=YOUR_ID"
   caption: "AI for Scientific Discovery"
-excerpt: "Gan Haipeng (甘海鹏) — MSc Student at Nanjing University.<br />AI for scientific discovery: peptide inhibitors, peptide catalysts, and LLM-based knowledge extraction."
+excerpt: "Gan Haipeng (甘海鹏) — MSc Student at Nanjing University.<br />AI for scientific discovery: peptide inhibitors/catalysts, and LLM-based knowledge extraction."
 
 research_focus:
   - image_path: /assets/images/focus-peptide-inhibitors.jpg

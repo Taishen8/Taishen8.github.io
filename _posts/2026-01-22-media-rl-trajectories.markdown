@@ -1,6 +1,7 @@
 ---
 title: "RL Trajectories"
 excerpt: "[Placeholder] Policies for material generation under constraints."
+permalink: /notes/media-rl-trajectories/
 categories:
   - notes
 tags:

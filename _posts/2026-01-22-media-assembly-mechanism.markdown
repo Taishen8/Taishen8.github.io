@@ -1,6 +1,7 @@
 ---
 title: "Assembly Mechanism Movie"
 excerpt: "[Placeholder] Structural transitions and key intermediates."
+permalink: /notes/media-assembly-mechanism/
 categories:
   - notes
 tags:
