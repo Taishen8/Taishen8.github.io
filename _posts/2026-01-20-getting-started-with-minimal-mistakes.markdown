@@ -1,4 +1,5 @@
 ---
+published: false
 layout: single
 title: "Getting Started with Minimal Mistakes"
 date: 2026-01-20 10:00:00 +0800

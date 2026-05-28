@@ -1,150 +1,49 @@
 ---
-layout: splash
+layout: page
+title: "Haipeng Gan"
 permalink: /
-title: "Gan Haipeng"
-header:
-  overlay_color: "#0b0b0f"
-  overlay_filter: "0.45"
-  overlay_image: /assets/images/hero.png
-  actions:
-    - label: "Email"
-      url: "mailto:your-email@example.com"
-    - label: "CV"
-      url: "/assets/files/cv-placeholder.pdf"
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=YOUR_ID"
-  caption: "AI for Scientific Discovery"
-excerpt: "Gan Haipeng (甘海鹏) — MSc Student at Nanjing University.<br />AI for scientific discovery: peptide inhibitors/catalysts, and LLM-based knowledge extraction."
-
-research_focus:
-  - image_path: /assets/images/focus-peptide-inhibitors.jpg
-    alt: "Peptide inhibitors"
-    title: "Peptide Inhibitors"
-    excerpt: "[Placeholder] Mechanistic targeting and binding specificity for therapeutic peptides."
-    url: "/notes/media-binding-dynamics/"
-    btn_label: "Read more"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/focus-peptide-catalysts.jpg
-    alt: "Peptide catalysts"
-    title: "Peptide Catalysts"
-    excerpt: "[Placeholder] AI-guided discovery of catalytic motifs and structure–function rules."
-    url: "/notes/peptide-catalysts-discovery/"
-    btn_label: "Read more"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/focus-llm-mining.jpg
-    alt: "LLM knowledge mining"
-    title: "LLM Knowledge Mining"
-    excerpt: "[Placeholder] Extracting experimental knowledge from literature at scale."
-    url: "/notes/peptide-assembly-llm-mining/"
-    btn_label: "Read more"
-    btn_class: "btn--primary"
-
-media_row_one:
-  - image_path: /assets/images/media-binding-dynamics.jpg
-    alt: "Peptide–protein binding dynamics"
-    title: "Peptide–Protein Binding Dynamics"
-    excerpt: "[Placeholder] Click to view the post and MP4 movie."
-    url: "/notes/media-binding-dynamics/"
-    btn_label: "View post"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/media-catalytic-screening.jpg
-    alt: "Catalytic motif screening"
-    title: "Catalytic Motif Screening"
-    excerpt: "[Placeholder] Visual summary and screening workflow."
-    url: "/notes/media-catalytic-motif-screening/"
-    btn_label: "View post"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/media-assembly-mechanism.jpg
-    alt: "Assembly mechanism movie"
-    title: "Assembly Mechanism Movie"
-    excerpt: "[Placeholder] Structural transitions and key intermediates."
-    url: "/notes/media-assembly-mechanism/"
-    btn_label: "View post"
-    btn_class: "btn--inverse"
-
-media_row_two:
-  - image_path: /assets/images/media-rl-trajectories.jpg
-    alt: "RL trajectories"
-    title: "RL Trajectories"
-    excerpt: "[Placeholder] Policies for material generation under constraints."
-    url: "/notes/media-rl-trajectories/"
-    btn_label: "View post"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/media-llm-extraction.jpg
-    alt: "LLM extraction pipeline"
-    title: "LLM Extraction Pipeline"
-    excerpt: "[Placeholder] Knowledge graph extraction and validation."
-    url: "/notes/media-llm-extraction/"
-    btn_label: "View post"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/media-protein-movie.jpg
-    alt: "Protein movie"
-    title: "Molecular Movie Highlight"
-    excerpt: "[Placeholder] Click to see the full movie and notes."
-    url: "/notes/media-molecular-movie/"
-    btn_label: "View post"
-    btn_class: "btn--inverse"
-
-project_row:
-  - image_path: /assets/images/project-peptide-catalysts.jpg
-    alt: "Peptide catalysts discovery"
-    title: "Peptide Catalysts Discovery"
-    excerpt: "Status: [In Preparation]. [Placeholder] AI-driven screening of catalytic peptide motifs."
-    url: "/notes/peptide-catalysts-discovery/"
-    btn_label: "Read more"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/project-peptide-assembly.jpg
-    alt: "Peptide assembly LLM mining"
-    title: "Peptide Assembly Essay LLM Mining"
-    excerpt: "Status: [Draft]. [Placeholder] LLM pipeline to extract mechanistic insights."
-    url: "/notes/peptide-assembly-llm-mining/"
-    btn_label: "Read more"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/project-rl-materials.jpg
-    alt: "RL based material generation"
-    title: "RL-Based Material Generation"
-    excerpt: "Status: [In Preparation]. [Placeholder] Policy learning for targeted materials."
-    url: "/notes/rl-material-generation/"
-    btn_label: "Read more"
-    btn_class: "btn--primary"
 ---
 
-<section class="hero-intro">
-  <p class="hero-tagline">AI for Scientific Discovery</p>
-  <p class="hero-subtitle">Peptide inhibitors, peptide catalysts, and LLM-based knowledge extraction.</p>
-</section>
+I am an MSc student in chemistry at Nanjing University, working on AI-assisted molecular discovery. My research path has moved from peptide inhibitor screening, to reaction-language-model training, to AI-assisted discovery of catalytic self-assembling peptides.
 
-## Research Focus
-{% include feature_row id="research_focus" %}
+Across these projects, I became interested in one central question: **how can an AI system decide what evidence to trust, which tool to use, and which candidate deserves experimental validation?**
 
-## Research Media
-<p class="section-subtitle">Visual summaries of ongoing work and molecular movies. Click any card to open the detailed post.</p>
-{% include feature_row id="media_row_one" %}
-{% include feature_row id="media_row_two" %}
+My current direction is evidence-grounded and feedback-driven discovery. I want to build scientific agents and modeling workflows that can combine literature evidence, curated datasets, molecular representations, simulations, synthesis constraints, and experimental feedback under uncertainty. I am especially interested in domains where discovery can be validated in a realistic loop, including catalysis, peptide/protein design, materials discovery, and self-driving laboratory platforms.
 
-## Ongoing Projects
-{% include feature_row id="project_row" %}
+## Featured Projects
 
-## Publication
-<div class="publication-card">
-  <p class="publication-title">Dual-Site Targeting by Peptide Inhibitors of the N-Terminal Domain of Hsp90: Mechanism and Design</p>
-  <p class="publication-meta">Authors: <strong>Gan Haipeng</strong>, [Co-authors]</p>
-  <p class="publication-meta">Venue: [Journal/Conference], [Year]</p>
-  <p class="publication-links">
-    <a href="[PDF link]">PDF</a> · <a href="[Code link]">Code</a> · <a href="[Supplement link]">Supplement</a>
-  </p>
-</div>
+### SAPIENS: catalytic peptide discovery
 
-## Research Notes
-<ul class="notes-list">
-  <li><a href="/notes/peptide-catalysts-discovery/">Peptide Catalysts Discovery</a> — [Placeholder] research-style deep dive.</li>
-  <li><a href="/notes/peptide-assembly-llm-mining/">Peptide Assembly Essay LLM Mining</a> — [Placeholder] LLM pipeline notes.</li>
-  <li><a href="/notes/rl-material-generation/">RL-Based Material Generation</a> — [Placeholder] policy learning notes.</li>
-  <li><a href="/notes/media-binding-dynamics/">Peptide–Protein Binding Dynamics</a> — [Placeholder] movie + results.</li>
-  <li><a href="/notes/media-llm-extraction/">LLM Extraction Pipeline</a> — [Placeholder] methods and validation.</li>
-</ul>
+**Status:** ChemRxiv preprint; under peer review at *Nature Catalysis* (2024 JIF 44.6).
 
-<section class="cta-banner">
-  <h2>Open to PhD opportunities in AI-for-Science and molecular design.</h2>
-  <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a> · <a href="[CV link]">CV</a> · <a href="[Scholar link]">Google Scholar</a></p>
-</section>
+My strongest discovery project. I built key computational components of a workflow that mines peptide self-assembly literature, reconstructs reliable negative data, transfers self-assembly knowledge to catalytic-function prediction, and prioritizes experimentally validated peptide catalysts.
+
+[View SAPIENS](/projects/sapiens/)
+
+### JCIM: peptide inhibitor design
+
+**Status:** Published in *Journal of Chemical Information and Modeling* (2024 JIF 5.3).
+
+My entry point into molecular discovery. I worked on model-guided two-mutation screening for peptide inhibitors targeting the Hsp90 N-terminal domain and analyzed how prediction scores aligned with docking evidence.
+
+[View JCIM workflow](/projects/jcim/)
+
+### ChemBART: reaction-language-model training
+
+**Status:** Manuscript under review at *Nature Communications* (2024 JIF 15.7).
+
+My foundation-model engineering project. I contributed to deployment, profiling, and pretraining acceleration for a reaction-language model for synthesis planning.
+
+[View ChemBART workflow](/projects/chembart/)
+
+## Research Direction
+
+The three projects point toward the same long-term goal: reliable sequential decision-making for AI-driven discovery, especially when evidence is incomplete and experimental feedback is sparse, delayed, or expensive.
+
+[Read research direction](/projects/research-direction/)
+
+## Purpose of This Website
+
+This website is a compact visual appendix for my PhD applications. My CV remains the formal record; the website shows the research stories, workflow figures, and selected evidence behind my main projects so potential advisors can quickly inspect how I think about AI-for-science problems.
+
+For formal details, please see [Profile](/profile/). For Fall 2027 PhD opportunities, I can be reached at [haipeng.gan@smail.nju.edu.cn](mailto:haipeng.gan@smail.nju.edu.cn).

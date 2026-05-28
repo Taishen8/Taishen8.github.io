@@ -1,4 +1,5 @@
 ---
+published: false
 title: "LLM Extraction Pipeline"
 excerpt: "[Placeholder] Knowledge graph extraction and validation."
 permalink: /notes/media-llm-extraction/

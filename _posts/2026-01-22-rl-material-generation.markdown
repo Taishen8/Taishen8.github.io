@@ -1,4 +1,5 @@
 ---
+published: false
 title: "RL-Based Material Generation"
 excerpt: "[Placeholder] Reinforcement learning for targeted material generation."
 permalink: /notes/rl-material-generation/

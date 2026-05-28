@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Peptide Assembly Essay LLM Mining"
 excerpt: "[Placeholder] LLM pipeline to extract mechanistic insights from literature."
 permalink: /notes/peptide-assembly-llm-mining/

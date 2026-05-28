@@ -1,0 +1,222 @@
+[
+  {
+    "source_docx": "SAPIENS.docx",
+    "order": 1,
+    "relationship_id": "rId8",
+    "docx_media": "media/image1.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_main_fig_01.png",
+    "width_px": 1321,
+    "height_px": 762,
+    "anchor_text": "",
+    "nearby_caption": "Fig. 1 | The SAPIENS framework for discovering functional self-assembling peptides. a, Dataset construction. The Data Engine combines LLM-mined positive samples with length-matched unlabeled sequences. To overcome publication bias, the spy-separation algorithm was used to generate the negative dataset. b, Multi-task learning. The AI Engine employs a Transformer encoder to map sequences into a latent space for predicting self-assembly and catalysis. Aggregation propensity and functional activity are balanced via multi-task learning to enhance prediction on rare, high-activity sequences. c, Validation and mechanism. The Discovery Engine executes a \u201cPredict-Test\u201d cycle. AI-selected candidates are experimentally verified, followed by MD simulations to reveal the atomic-level structural basis of the observed activity."
+  },
+  {
+    "source_docx": "SAPIENS.docx",
+    "order": 2,
+    "relationship_id": "rId9",
+    "docx_media": "media/image2.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_main_fig_02.png",
+    "width_px": 1088,
+    "height_px": 843,
+    "anchor_text": "",
+    "nearby_caption": "Fig. 2 | Construction and validation of the self-assembly dataset. a, Workflow integrating LLM-based iterative extraction with a majority-voting filter. b, Extraction performance metrics showing precision (orange) and recall (gray) as a function of voting times. c, Schematic of the PU learning framework. Some positives (blue) acting as \u201cspies\u201d within the unlabeled pool to distinguish reliable negatives (gray) from potential assemblers (light blue). d, Self-assembly propensity distribution (0: non-assembling/negative; 1: assembling/positive). Following the training in stage 1, the probability distributions of the spy samples overlap significantly with those of the true positives, while distinctly differing from the unlabeled data. In stage 2, by filtering out high-scoring unlabeled samples (potential false negatives), the distinction between the positives (including the spies) and the negatives is further enhanced, thereby confirming the high reliability of the resulting negative dataset. e, UMAP visualization of peptide sequence space. The sparse distribution of existing literature data (yellow) 35 is superimposed on the constructed dataset (blue/gray)."
+  },
+  {
+    "source_docx": "SAPIENS.docx",
+    "order": 3,
+    "relationship_id": "rId10",
+    "docx_media": "media/image3.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_main_fig_03.png",
+    "width_px": 1435,
+    "height_px": 873,
+    "anchor_text": "",
+    "nearby_caption": "Fig. 3 | Multi-task learning and performance evolution of SAPIENS. a,\u00a0Overview of the multi-task learning architecture. The model uses a shared encoder to integrate relatively large-scale assembly data (blue) with sparse catalytic data (red), utilizing MGDA regularization to balance objectives. b, c,\u00a0Virtual screening validation compares results from training solely on catalytic data (b) with those using the SAPIENS framework which incorporates catalytic, self-assembly, and sequence data (c). SAPIENS effectively enriches high-activity sequences (red points) into the top-scoring tier, demonstrating the efficacy of transfer learning in overcoming small-sample overfitting. d, Evolution of catalytic activity of SAPIENS-designed peptides targeting pNPA hydrolysis across four active learning iterations (rounds 1\u20134) and a rational design control (round 5). Strategies employed include cold-start supervised training (round 1), PU learning (round 2), and PU learning coupled with multi-task learning (rounds 3\u20134). The lead candidate, GW1, was identified in round 4."
+  },
+  {
+    "source_docx": "SAPIENS.docx",
+    "order": 4,
+    "relationship_id": "rId11",
+    "docx_media": "media/image4.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_main_fig_04.png",
+    "width_px": 808,
+    "height_px": 866,
+    "anchor_text": "",
+    "nearby_caption": "Fig. 4 | Experimental validation of catalytic performance. a, Catalytic activity for pNPA hydrolysis versus sequence similarity to reference peptide IIQ (top right). Comparison between SAPIENS-generated sequences (black) and literature benchmark sequences (light blue) identifies GW1 (top left) as the top candidate, possessing superior catalytic activity and high sequence novelty. b, Catalytic activity of GW1 towards the hydrolysis of various esters. c, Catalytic activity of GW1 in DMP oxidation."
+  },
+  {
+    "source_docx": "SAPIENS.docx",
+    "order": 5,
+    "relationship_id": "rId12",
+    "docx_media": "media/image5.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_main_fig_05.png",
+    "width_px": 1393,
+    "height_px": 627,
+    "anchor_text": "",
+    "nearby_caption": "Fig. 5 | Experimental and mechanistic characterization of the designed peptides assemblies. a, Atomic force microscopy (AFM) images revealing the distinct fibrillar morphology of GW1 (left) and IIQ (right). b, Circular dichroism (CD) spectra indicating the secondary structural differences between GW1 (red) and IIQ (blue). c, Representative snapshots from MD simulations of GW1 (left) and IIQ (right). Odd- and even-numbered residues are rendered in space-filling and stick representations, respectively. Insets (top right) display the backbone topology in cartoon representation. d, Root-mean-square fluctuation (RMSF) analysis showing higher structural flexibility for GW1 compared to IIQ. e, Distribution of twisting angles between two neighboring \u03b2-strands in GW1 (red) and IIQ (blue). The grey shaded area represents the distribution region of the angle between the two \u03b2-strands at the catalytic active center in the crystal structures of carbonic anhydrase."
+  },
+  {
+    "source_docx": "SAPIENS.docx",
+    "order": 6,
+    "relationship_id": "rId13",
+    "docx_media": "media/image6.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_main_fig_06.png",
+    "width_px": 1080,
+    "height_px": 775,
+    "anchor_text": "",
+    "nearby_caption": "Fig. 6 | Divergent design logics revealed by layer-wise relevance propagation (LRP) analysis. a-b, sequence logo of the peptides from rational design reported in literature (a) and from prediction from this work (b). c, Rational design benchmarks exhibit a strict alternating amphiphilic pattern, where hydrophobicity at position 6 contributes negatively to the prediction. d, SAPIENS identifies a hydrophobic anchor at position 5 and assigns positive relevance to hydrophobic residues at position 6, thereby deviating from the canonical alternating hydrophobic/hydrophilic pattern."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 1,
+    "relationship_id": "rId7",
+    "docx_media": "media/image1.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_01.png",
+    "width_px": 830,
+    "height_px": 658,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S1 | Construction Workflow of Peptide Self-Assembly Dataset."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 2,
+    "relationship_id": "rId8",
+    "docx_media": "media/image2.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_02.png",
+    "width_px": 758,
+    "height_px": 988,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S2 | Distribution of the retrieved literature. a. The year of publications. b. The top-30 publisher."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 3,
+    "relationship_id": "rId9",
+    "docx_media": "media/image3.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_03.png",
+    "width_px": 1260,
+    "height_px": 414,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S3 | Workflow for Data Mining of Peptide Self-Assembly Using Large Language Models"
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 4,
+    "relationship_id": "rId10",
+    "docx_media": "media/image4.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_04.png",
+    "width_px": 1269,
+    "height_px": 1060,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S4 | Performance metrics of peptide extraction using GPT-5 with a majority voting strategy.\u00a0To evaluate the model's reliability, we extracted peptide sequences from 100 scientific literatures over 10 independent rounds (x-axis). A \"majority voting\" mechanism was applied where a peptide is considered valid only if its occurrence frequency exceeds a specific voting threshold (y-axis). The heatmaps illustrate four key metrics compared against a manually curated gold standard: the total number of extracted peptides, Precision, Recall, and F1 Score. The results indicate that GPT-5 achieves a stable baseline performance, with precision and recall showing a steady trade-off as the voting threshold increases."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 5,
+    "relationship_id": "rId11",
+    "docx_media": "media/image5.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_05.png",
+    "width_px": 1269,
+    "height_px": 1060,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S5 | Voting performance metrics for Gemini-2.5-pro in peptide sequence extraction.\u00a0This figure displays the extraction performance of Gemini-2.5-pro across 10 rounds of execution on the same dataset of 100 literatures. The heatmaps follow the same layout as the previous figure, plotting performance against the number of rounds and voting threshold. Notably, Gemini-2.5-pro tends to extract a significantly higher volume of peptide candidates (as shown in the \"Number of Extracted Peptides\" panel). However, the Precision heatmap suggests that while the recall potential is high, a stricter voting threshold is required to filter out false positives and achieve precision levels comparable to other models."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 6,
+    "relationship_id": "rId12",
+    "docx_media": "media/image6.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_06.png",
+    "width_px": 1269,
+    "height_px": 1060,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S6 | Evaluation of DeepSeek-R1 performance and rationale for model selection.\u00a0This figure characterizes the performance of DeepSeek-R1 under the majority voting framework. The four heatmaps demonstrate the model's ability to extract peptides with varying rounds (1-10) and voting thresholds.\u00a0DeepSeek-R1 was ultimately selected for the final extraction pipeline.\u00a0As illustrated in the Precision and Recall panels, this model exhibits a superior balance of performance metrics. Specifically, it achieves relatively high precision at moderate-to-high voting thresholds, which is critical for ensuring data quality, while maintaining a considerable recall rate. This high accuracy, combined with its significantly lower cost compared to GPT-5 and Gemini-2.5-pro, makes DeepSeek-R1 the most cost-effective and reliable solution for large-scale peptide mining tasks."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 7,
+    "relationship_id": "rId13",
+    "docx_media": "media/image7.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_07.png",
+    "width_px": 1846,
+    "height_px": 399,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S7 | Transformer-based architecture of SAPIENS."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 8,
+    "relationship_id": "rId14",
+    "docx_media": "media/image8.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_08.png",
+    "width_px": 803,
+    "height_px": 1004,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S8 | Ablation study and performance validation of the SAPIENS multi-task learning framework. a, Predictive performance metrics for different model configurations. The single-task baseline (\u201ccata only\u201d, green) is significantly improved upon by adding auxiliary tasks: sequence reconstruction (\"+sequence\", blue) and self-assembly prediction (\"+sa\", purple). The complete SAPIENS model (\"+sa+sequence\", orange) achieves peak performance across all metrics, notably reaching an NDCG of 0.87. b, Predicted vs. experimental catalytic efficiency (log scale) correlation on the test set. Single-task models show poor prediction clustering (top left). Progressive integration of auxiliary losses refines ranking ability. The full multi-task SAPIENS model (bottom right) shows markedly superior enrichment of high-activity sequences in the top ranks, indicating reduced false positives compared to simpler models."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 9,
+    "relationship_id": "rId15",
+    "docx_media": "media/image9.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_09.png",
+    "width_px": 1268,
+    "height_px": 394,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S9 | Navigation of the peptide sequence space () visualized via ESM-C embeddings. a, Comparison of the structural landscape of generated self-assembling sequences (blue points) against the global background (light grey). b, Activity mapping, where deep blue regions indicate high predicted catalytic potential, acting as a \u201csearchlight\u201d to prioritize functional clusters in the sequence space. c, Discovery of distinct active sequence regions. SAPIENS candidates (red stars) occupy high-activity clusters that are spatially distinct from those based on rational design reported in the literature (purple circles) 3, confirming the exploration of novel functional subspaces derived from AI-discovered logic."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 10,
+    "relationship_id": "rId16",
+    "docx_media": "media/image10.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_10.png",
+    "width_px": 1377,
+    "height_px": 513,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S10 | Correlation analysis between model predictions and coarse-grained molecular dynamics (CGMD) simulation results.\u00a0The scatter plots compare the predicted scores from\u00a0SAPIENS\u00a0(left panel, this work) and\u00a0Mausa et al.\u00a0(right panel, previous work 10) against the Aggregation Propensity (AP) calculated from CGMD simulations for a set of 400 peptides 11. The linear regression lines (green) and Spearman correlation coefficients () indicate the degree of alignment. SAPIENS demonstrates a noticeably stronger correlation () compared to the baseline method (). Importantly, SAPIENS predictions are derived exclusively from data mined from scientific literature and were\u00a0not trained or fine-tuned on simulation data, ensuring there is no data leakage. Although CGMD provides critical physical insights, it is debated within the field and not regarded as \u201cgold standard.\u201d Thus, this alignment functions as a corroborative reference to verify that SAPIENS captures trends consistent with simulation dynamics, rather than serving as a strict ground-truth accuracy benchmark."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 11,
+    "relationship_id": "rId17",
+    "docx_media": "media/image11.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_11.png",
+    "width_px": 707,
+    "height_px": 953,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S11 | Hydrolytic activity of peptides GW1 versus IIQ towards a panel of esters."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 12,
+    "relationship_id": "rId18",
+    "docx_media": "media/image12.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_12.png",
+    "width_px": 943,
+    "height_px": 694,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S12 | Time-dependent secondary structural changes of GW1 monitored by circular dichroism (CD)."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 13,
+    "relationship_id": "rId19",
+    "docx_media": "media/image13.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_13.png",
+    "width_px": 1572,
+    "height_px": 599,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S13 | Hydrophobic packing arrangement of GW1 (left) and IIQ (right). The backbone is in cartoon representation; sidechain of key hydrophobic residue is in stick representation. For clarity, only two \u03b2-strands per layer (top and bottom) are displayed. Distances are in \u00c5."
+  },
+  {
+    "source_docx": "SAPIENS_SI.docx",
+    "order": 14,
+    "relationship_id": "rId20",
+    "docx_media": "media/image14.png",
+    "file": "portfolio_site/assets/source_figures/sapiens/sapiens_si_fig_14.png",
+    "width_px": 866,
+    "height_px": 724,
+    "anchor_text": "",
+    "nearby_caption": "Supplementary Figure S14 | Catalytic efficiency of GW1 on pNPA hydrolysis."
+  }
+]

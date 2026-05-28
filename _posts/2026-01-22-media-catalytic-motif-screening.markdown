@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Catalytic Motif Screening"
 excerpt: "[Placeholder] Visual summary of screening workflow and results."
 permalink: /notes/media-catalytic-motif-screening/

@@ -1,9 +1,5 @@
 ---
-layout: archive
-title: "Blog Posts"
-permalink: /posts/
-author_profile: true
+published: false
 ---
 
-Here you'll find all my blog posts and articles.
-
+Legacy Minimal Mistakes placeholder page. This application site does not need a blog index yet.

@@ -1,0 +1,123 @@
+[
+  {
+    "source_docx": "JCIM.docx",
+    "order": 1,
+    "relationship_id": "rId9",
+    "docx_media": "media/image1.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_01.png",
+    "width_px": 1584,
+    "height_px": 749,
+    "anchor_text": "",
+    "nearby_caption": "Figure 1. A multi-strategy computational pipeline for engineering hepta-peptide inhibitors against hHsp90-NTD. Experimental validation represented by dashed lines was not conducted in the current work."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 2,
+    "relationship_id": "rId10",
+    "docx_media": "media/image2.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_02.png",
+    "width_px": 583,
+    "height_px": 455,
+    "anchor_text": "",
+    "nearby_caption": "Figure 2.Violin plot comparing HDOCK scores across peptides grouped by their\u00a0CAMP consensus score. The CAMP consensus score reflects the maximum number of 5-fold cross-validation instances where a mutant\u2019s predicted binding affinity exceeded the reference peptide\u2019s affinity for either hHsp90-NTD or dHsp90-NTD. For example, a score of \"4\" indicates the mutant outperformed the wild type in 4/5 folds for at least one Hsp90 isoform."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 3,
+    "relationship_id": "rId11",
+    "docx_media": "media/image3.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_03.png",
+    "width_px": 771,
+    "height_px": 956,
+    "anchor_text": "",
+    "nearby_caption": "Figure 3. The flowchart for predicting the binding capability of single or double mutants of peptides to Hsp90-NTD with the CAMP Method in this work."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 4,
+    "relationship_id": "rId12",
+    "docx_media": "media/image4.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_04.png",
+    "width_px": 1078,
+    "height_px": 714,
+    "anchor_text": "",
+    "nearby_caption": "Figure 4. Convergence analysis of binding free energy calculated by MM/PBSA. Shown are the average binding free energies and their standard deviations for four representative peptides bound to the Hsp90-NTD."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 5,
+    "relationship_id": "rId13",
+    "docx_media": "media/image5.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_05.png",
+    "width_px": 1179,
+    "height_px": 1472,
+    "anchor_text": "",
+    "nearby_caption": "Figure 5. Binding and disassociation of the dHsp90-NTD/pepref complex. (a) Key interactions between the ATP and the Cdc37 binding pockets with the peptide. The two-dimensional free energy landscape of the peptide dissociation process in the ATP binding pocket (b) and the Cdc37 binding pocket (c). The lowest energy paths (red line) are shown in the corresponding magnified insets."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 6,
+    "relationship_id": "rId14",
+    "docx_media": "media/image6.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_06.png",
+    "width_px": 1181,
+    "height_px": 366,
+    "anchor_text": "",
+    "nearby_caption": "Figure 6. Representative structures during the peptide dissociation from Hsp90-NTD. The loss of key interactions in this process (top panel) and the corresponding electrostatic potential surfaces (bottom panel)."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 7,
+    "relationship_id": "rId15",
+    "docx_media": "media/image7.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_07.png",
+    "width_px": 893,
+    "height_px": 1447,
+    "anchor_text": "",
+    "nearby_caption": "Figure 7. Three potential peptide inhibitors derived from mutations of the pepref and their complexes with the protein, along with key interactions. (a) The Hsp90-NTD/pepmut3, (b) the Hsp90-NTD/pepmut5, and (c) the Hsp90-NTD/pepmut13."
+  },
+  {
+    "source_docx": "JCIM.docx",
+    "order": 8,
+    "relationship_id": "rId16",
+    "docx_media": "media/image8.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_main_fig_08.png",
+    "width_px": 1270,
+    "height_px": 556,
+    "anchor_text": "",
+    "nearby_caption": "Figure 8. The width of the ATP binding pocket is a critical factor determining the effective binding of peptides and their mutants to the protein. (a) A cross-sectional view of the Hsp90-NTD protein. The residues at the entrance of the ATP binding pocket are predominantly polar (K58 and K112), while the bottom is mainly hydrophobic except for D93. (b) Distribution of ATP-binding pocket entrance widths across different Hsp90-NTD/peptide complexes, with corresponding median values indicated. The inset illustrates a significant positive correlation between calculated binding free energies and the entrance width."
+  },
+  {
+    "source_docx": "JCIM_SI.docx",
+    "order": 1,
+    "relationship_id": "rId7",
+    "docx_media": "media/image1.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_si_fig_01.png",
+    "width_px": 1756,
+    "height_px": 622,
+    "anchor_text": "",
+    "nearby_caption": "Figure S1. Key interactions within the ATP-binding pocket of the dHsp90-NTD/pepref complex as a function of protein to peptide distance Z. (a) The K58-NZ/D9'-CG pair; (b) the K58-NZ/D8'-C pair; (c) the K58-NZ/D8'-CG pair; (d) the T184-HG1/Y10' pair; (e) the K112-NZ/D8'-C pair; (f) the K112-NZ/D8'-CG pair; (g) the K112-NZ/D12'-CG pair; (h) the K112-NZ/D9'-CG pair."
+  },
+  {
+    "source_docx": "JCIM_SI.docx",
+    "order": 2,
+    "relationship_id": "rId8",
+    "docx_media": "media/image2.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_si_fig_02.png",
+    "width_px": 1202,
+    "height_px": 1038,
+    "anchor_text": "",
+    "nearby_caption": "Figure S2. Key interactions within the Cdc-binding pocket of the dHsp90-NTD/pepref complex as a function of protein to peptide distance Z. (a) The E47-CD/R13'-CZ pair; (b) the D54-CG/R-13-CZ pair."
+  },
+  {
+    "source_docx": "JCIM_SI.docx",
+    "order": 3,
+    "relationship_id": "rId9",
+    "docx_media": "media/image3.png",
+    "file": "portfolio_site/assets/source_figures/jcim/jcim_si_fig_03.png",
+    "width_px": 1681,
+    "height_px": 754,
+    "anchor_text": "",
+    "nearby_caption": "Figure S3. Comparative analysis of sequence alignment and structural alignment among Hsp90 proteins from different sources. (a) Complete sequence comparison between hHsp90 and dHsp90; (b) 3D crystallographic structural comparison of the hHsp90-NTD (in pink, PDB ID: 3T10) and dHsp90-NTD (in cyan, PDB ID: 4XE2)."
+  }
+]

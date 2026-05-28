@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Deep Dynamics: Neural Operators for Fluid Simulation"
 excerpt: "Developing next-gen fluid simulation using Graph Neural Networks."
 header:
