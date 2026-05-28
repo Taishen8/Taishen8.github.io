@@ -46,4 +46,4 @@ The three projects point toward the same long-term goal: reliable sequential dec
 
 This website is a compact visual appendix for my PhD applications. My CV remains the formal record; the website shows the research stories, workflow figures, and selected evidence behind my main projects so potential advisors can quickly inspect how I think about AI-for-science problems.
 
-For formal details, please see [Profile](/profile/). For Fall 2027 PhD opportunities, I can be reached at [haipeng.gan@smail.nju.edu.cn](mailto:haipeng.gan@smail.nju.edu.cn).
+For formal details, please see [Profile](/cv/). For Fall 2027 PhD opportunities, I can be reached at [haipeng.gan@smail.nju.edu.cn](mailto:haipeng.gan@smail.nju.edu.cn).
