@@ -14,7 +14,7 @@ My current direction is evidence-grounded and feedback-driven discovery. I want 
 
 ### SAPIENS: catalytic peptide discovery
 
-**Status:** ChemRxiv preprint; under peer review at *Nature Catalysis* (2024 JIF 44.6).
+**Status:** ChemRxiv preprint; submitted to *JACS* after substantial revision informed by external peer review at *Nature Catalysis*.
 
 My strongest discovery project. I built key computational components of a workflow that mines peptide self-assembly literature, reconstructs reliable negative data, transfers self-assembly knowledge to catalytic-function prediction, and prioritizes experimentally validated peptide catalysts.
 

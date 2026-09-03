@@ -10,7 +10,7 @@ This page collects the three projects that best explain my research trajectory. 
 
 **AI-assisted discovery of catalytic self-assembling peptides.**
 
-**Status:** ChemRxiv preprint; under peer review at *Nature Catalysis* (2024 JIF 44.6).
+**Status:** ChemRxiv preprint; submitted to *JACS* after substantial revision informed by external peer review at *Nature Catalysis*.
 
 This is the strongest bridge between my current work and my PhD direction. It connects LLM-assisted literature mining, dataset construction, positive-unlabeled learning, multi-task modeling, candidate prioritization, and experimental validation.
 

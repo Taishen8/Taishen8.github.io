@@ -7,7 +7,7 @@ toc: true
 
 ## Summary
 
-**Status:** ChemRxiv preprint; under peer review at *Nature Catalysis* (2024 JIF 44.6).
+**Status:** ChemRxiv preprint; submitted to *JACS* after substantial revision informed by external peer review at *Nature Catalysis*.
 
 SAPIENS uses literature-mined peptide self-assembly knowledge to support the discovery of catalytic self-assembling peptides. The project connects LLM-assisted literature mining, biased-data reconstruction, representation learning, candidate screening, and experimental validation.
 
